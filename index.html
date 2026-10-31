@@ -1,0 +1,27 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; connect-src 'self' https://api.github.com; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer"><title>JEV DESK · SOL PAPER</title>
+<link rel="stylesheet" href="style.css?v=3219ea34">
+<script src="vendor/chart-4.4.1.umd.min.js"></script></head><body>
+<header><div class="logo"><span>J</span><b>JEV DESK · SOL PAPER</b></div><div id="metrics" class="metrics"><span class="dim">CARGANDO…</span></div><div id="live" class="live"></div><div class="clock"><b id="clock">--:--:--</b><small>CDMX</small></div></header>
+<main>
+<aside class="col">
+ <section><h2>OPERATORS</h2><div id="ops"></div></section>
+ <section><h2>EVIDENCE MATRIX <small>ÚLTIMAS 30 DECISIONES</small></h2><div id="matrix" class="matrix"></div><div id="mlegend" class="legend"></div></section>
+ <section><h2>GATE LOG <small>ERRORES DEL LOOP</small></h2><div id="errs" class="term"></div></section>
+</aside>
+<div class="col center">
+ <section class="vortex"><canvas id="vx"></canvas><div class="vxlabel" id="vxlabel"></div></section>
+ <section><h2>BITÁCORA EN VIVO <small>RECHAZOS · MONEDAS QUE PASARON</small></h2><div class="log2"><div class="lcol" role="region" aria-label="Rechazos del filtro"><h3>RECHAZADAS <small>SÍMBOLO · REGLA</small></h3><div id="logRej" class="term log" aria-live="polite"></div></div><div class="lcol" role="region" aria-label="Monedas que pasaron los filtros"><h3>PASARON FILTROS <small>RESULTADO POR ESTRATEGIA</small></h3><div id="logPass" class="term log" aria-live="polite"></div></div></div><h2 class="sub2">ENTRADAS <small>POSICIONES ABIERTAS / CERRADAS (FILLS)</small></h2><div id="entries" class="term log ents"></div></section>
+ <section><h2>HISTORIAL DE POSICIONES CERRADAS <small>JEV VS REGLA SIMPLE · PNL NETO REALIZADO</small></h2><div id="closed"></div></section>
+ <section><h2>PISTA DEL ÚLTIMO TOKEN <small id="lt"></small></h2><div class="track" id="track"></div><div id="ltr" class="dim small"></div></section>
+ <section><h2>EQUITY <small>JEV VS HOLD BTC / HOLD SOL / REGLA SIMPLE</small></h2><div class="chartbox"><canvas id="eq"></canvas></div><div id="eqnote" class="dim small"></div></section>
+</div>
+<aside class="col">
+ <section><h2>EMBUDO DE FILTROS</h2><div id="funnel"></div></section>
+ <section><h2>POSICIONES</h2><div id="pos"></div></section>
+ <section><h2>CARRILES Y CONTROLES</h2><div id="ctl"></div></section>
+ <section><h2>HISTORIAL DE COMANDOS</h2><div id="hist"></div></section>
+</aside>
+</main><footer id="foot" class="dim small"></footer><script src="app.js?v=808d21f1"></script></body></html>
