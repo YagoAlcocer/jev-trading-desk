@@ -1,0 +1,17 @@
+{
+ "risk_factor": 1.0,
+ "lanes": {
+  "meme": {
+   "state": "active",
+   "reason": null,
+   "since": null,
+   "paused_seconds": 0.0
+  },
+  "liquid": {
+   "state": "active",
+   "reason": null,
+   "since": null,
+   "paused_seconds": 0.0
+  }
+ }
+}
